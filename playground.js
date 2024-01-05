@@ -15,4 +15,11 @@ function reverse(str) {
   return reversed;
 }
 
-console.log(reverse("banana"));
+// ### ALTERNATE SOLUTIONS ###
+/* 1 - Split string into array then use the built-in reverse method,
+ I knew about this but did it manually on purpose
+ CODE:
+ function reverse(str) {
+  return str.split('').reverse().join('');
+}
+ */
